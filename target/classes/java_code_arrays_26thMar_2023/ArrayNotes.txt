@@ -1,0 +1,27 @@
+What is Array?
+An array is an object that holds a fixed number of values of homogeneous data type
+A data structure where we store similar elements
+
+Object Array can store multiple data types
+
+Features of Array: -
+
+variables in the array are ordered
+indexing begins from 0
+they occupy memory in Heap Memory Area
+superclass of an Array type is Object
+They are created at Runtime
+to determine length - .length
+
+Advantages of Array: -
+stores lot of data together
+easily accessible, retrievable
+organized in an orderly fashion
+efficient
+
+Disadvantages of Array: -
+
+Types: -
+1. Single Dimensional  1-D Array
+2. Multi Dimensional  2-D, 3-D Array
+
