@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testngcode_2ndApr_2023.SeparateTestCases">
+      <class name="com.testng_assertions_2ndApr_2023.Assertions_Automation">
         <methods>
-          <include name="loginRediffTest" invocation-numbers="0 1 2 3"/>
+          <include name="verifyNinjaTelephoneWarningMessageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.testngcode_2ndApr_2023.SeparateTestCases -->
+      </class> <!-- com.testng_assertions_2ndApr_2023.Assertions_Automation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
