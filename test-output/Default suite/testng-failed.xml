@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationcode_1st_Apr_2023.Actions_Mouse_Keyboard">
+      <class name="com.testngcode_2ndApr_2023.SeparateTestCases">
         <methods>
-          <include name="mouseActionsTest"/>
+          <include name="loginRediffTest" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.automationcode_1st_Apr_2023.Actions_Mouse_Keyboard -->
+      </class> <!-- com.testngcode_2ndApr_2023.SeparateTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
